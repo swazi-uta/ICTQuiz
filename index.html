@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ICT Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>ICT Quiz</h1>
+    <form name="formName" id="id_form" method="post" action="../cgi-bin/storedata.pl" target="dummy">
+        <table id="id_table" border="0" align="center">
+            <tr>
+                <td align="right">Class:</td>
+                <td align="left">
+                    <select name="class">
+                        <option value="form1a">Form1A</option>
+                        <option value="form1b">Form1B</option>
+                        <option value="fomr2a">Form2A</option>
+                        <option value="fomr2b">Form2B</option>
+                        <option value="fomr3">Form3</option>
+                        <option value="fomr4">Form4</option>
+                        <option value="fomr5">Form5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Name:</td>
+                <td>
+                    <input id="id_name" name="name" type="text" maxlength="30" placeholder="Click and type your name">
+                </td>
+            </tr>
+        </table>
+        <div class="quiz-container">
+            <div id="quiz"></div>
+        </div>
+        <button type="submit" name="Submit" id="submit">Get Results</button>
+        <button type="button" name="Reset" id="reset">Reset</button>
+        <div id="results"></div>
+        <iframe name="dummy" style="visibility:hidden;height:0;"></iframe>
+    </form>
+    <script src="js/main.js"></script>
+</body>
+<footer>
+    <hr>
+    2018 XXXXX HIGH SCHOOL
+</footer>
+</html>
+
