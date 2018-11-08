@@ -1,5 +1,5 @@
 # ICTQuiz
-This application is a basic ICT quiz based on Cambridge IGSCE.  
+This application is a basic ICT quiz based on Cambridge IGCSE.  
 
 ## Reference
 Cambridge IGCSE Information and Communication Technology  
