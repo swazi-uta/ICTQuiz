@@ -3,3 +3,7 @@ Okayuについて
 
 Okayuお試しページのリンク
 https://swazi-uta.github.io/Okayu/
+
+
+## アカウント登録テスト
+https://qiita.com/unsoluble_sugar/items/14bea376d8e6fce82eb3
